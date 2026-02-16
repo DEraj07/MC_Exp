@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EMI Calculator</string>
+    <string name="title">EMI Calculator</string>
+    <string name="loan_amount">Loan Amount</string>
+    <string name="interest_rate">Interest Rate (%)</string>
+    <string name="loan_tenure">Loan Tenure (Years)</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="emi_placeholder">EMI will appear here</string>
+    <string name="interest_placeholder">Total Interest will appear here</string>
+</resources>
