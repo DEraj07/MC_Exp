@@ -1,0 +1,5 @@
+<resources>
+    <style name="Theme.EXP_7_SMS_Alert_App" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">#6200EE</item>
+    </style>
+</resources>

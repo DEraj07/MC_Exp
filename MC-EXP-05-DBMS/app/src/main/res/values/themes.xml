@@ -1,0 +1,9 @@
+<resources>
+    <style name="Base.Theme.EXP5DBMS" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryVariant">#3700B3</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:windowBackground">#F5F5F5</item>
+    </style>
+    <style name="Theme.EXP5DBMS" parent="Base.Theme.EXP5DBMS" />
+</resources>

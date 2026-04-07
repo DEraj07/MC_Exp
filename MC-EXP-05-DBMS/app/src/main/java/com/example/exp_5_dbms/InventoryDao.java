@@ -1,0 +1,26 @@
+package com.example.exp_5_dbms;
+
+import androidx.room.Dao;
+import androidx.room.Delete;
+import androidx.room.Insert;
+import androidx.room.Query;
+import androidx.room.Update;
+import java.util.List;
+
+@Dao
+public interface InventoryDao {
+    @Insert
+    void insert(InventoryItem item);
+
+    @Update
+    void update(InventoryItem item); // DetailsActivity iska use karke quantity update karegi
+
+    @Delete
+    void delete(InventoryItem item);
+
+    @Query("SELECT * FROM inventory_table")
+    List<InventoryItem> getAllItems();
+
+    @Query("SELECT * FROM inventory_table WHERE id = :itemId LIMIT 1")
+    InventoryItem getItemById(int itemId);
+}
